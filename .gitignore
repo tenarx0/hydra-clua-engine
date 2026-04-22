@@ -1,0 +1,4 @@
+# create .gitignore
+echo "*.DS_Store" > .gitignore
+echo "Thumbs.db" >> .gitignore
+echo "*.tmp" >> .gitignore
