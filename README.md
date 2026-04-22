@@ -60,6 +60,12 @@ To integrate the engine into a standard Android Studio or Gradle project:
 
 ---
 
+## Use Guide
+
+Check the documented Lua files in `release/lua/` to see and understand how some of the engine's functions are working.
+
+---
+
 ## Versioning
 
 Releases adhere strictly to Semantic Versioning (`vMAJOR.MINOR.PATCH`).
