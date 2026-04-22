@@ -64,6 +64,10 @@ To integrate the engine into a standard Android Studio or Gradle project:
 
 Check the documented Lua files in `release/lua/` to see and understand how some of the engine's functions are working.
 
+NOTE: IN ORDER TO RUN YOUR LUA SCRIPTS, YOU MUST ADD `main.hclua` FILE INSIDE YOUR `assets/` OF YOUR PROJECT BECAUSE THAT'S THE STARTING POINT OF LUA. ALSO THE LUA FILES MUST BE ENCRYPTED IN `hcl` FORMAT AND MUST ALSO HAVE `.hclua` EXTENSION, NOT `.lua`.
+
+LUA SCRIPTS THAT IS NOT ENCRYPTED (HAS ITS CODE IN PLAINTEXT) WILL CRASH FOR SECURITY REASONS.
+
 ---
 
 ## Versioning
